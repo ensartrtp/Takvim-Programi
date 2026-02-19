@@ -1,2 +1,19 @@
-# Takvim Programi
-Bu program, konsol tabanlı bir yıl takvimi görüntüleyicisidir. Kullanıcının girdiği yıla ait 12 ayın takvimini gösterir. 1910-2090 arası girilen bir yıl için tüm yılın takvimini görüntüler. Haftanın günlerini Pazartesi başlangıçlı gösterir. Cumartesi ve Pazar günlerini kırmızı renkte vurgular.
+# Takvim Programı
+
+Konsol tabanlı, 1910-2090 yılları arası için takvim görüntüleme uygulaması.
+
+## Özellikler
+- Girilen yılın 12 ayını tek ekranda gösterir
+- Hafta Pazartesi'den başlar
+- Cumartesi ve Pazar günleri kırmızı renkle vurgulanır
+- Artık yıl hesaplaması otomatik yapılır
+
+## Kullanım
+- **D/d**: Takvim görüntüle
+- **ESC**: Çıkış
+- Geçerli yıl aralığı: 1910-2090
+
+## Teknik Detaylar
+- Zeller formülü ile ayın ilk günü hesaplanır
+- Renkli çıktı için ANSI renk kodları kullanılır
+- Kutulu menü tasarımı
